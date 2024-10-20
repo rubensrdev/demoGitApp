@@ -18,6 +18,8 @@ struct ContentView: View {
 			Text("Practice for offline module in SDP'24")
 				.font(.footnote)
 				.underline()
+			NewProjectButton()
+			
         }
         .padding()
     }
