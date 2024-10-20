@@ -19,7 +19,6 @@ struct ContentView: View {
 				.font(.footnote)
 				.underline()
 			NewProjectButton()
-			
         }
         .padding()
     }
