@@ -9,7 +9,13 @@ import SwiftUI
 
 struct NewProjectButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			Button("Start new project 🚀", action: {
+				print("Starting new project in 3, 2, 1... ")
+			})
+			.buttonStyle(.borderedProminent)
+			.padding(.top, 10)
+		}
     }
 }
 
