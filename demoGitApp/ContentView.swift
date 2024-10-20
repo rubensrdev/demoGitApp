@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "cloud.circle.fill")
                 .imageScale(.large)
-            Text("Hello world from SVN repo app!")
+            Text("Hello world from GIT repo app!")
 				.font(.callout)
 				.bold()
 			Text("Practice for offline module in SDP'24")
